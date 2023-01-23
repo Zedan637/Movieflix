@@ -1,6 +1,6 @@
 {
   "name": "movieflix",
-  "homepage": "https://Zedan637.github.io/movieflix",
+  "homepage": "http://Zedan637.github.io/movieflix",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -11,7 +11,7 @@
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  }, 
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
