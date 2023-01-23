@@ -29,11 +29,11 @@ const App = () => {
 
   return (
     <div className='app'>
-      <h1>Movie Fflix</h1>
+      <h1>Movie Flix</h1>
 
       <div className='search'>
         <input 
-          placeholder='Search For Movies'
+          placeholder='Search For Movies...'
           value={searchTerm}
           onChange={(event) => setSearchTerm(event.target.value)}
         />
