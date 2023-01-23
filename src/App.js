@@ -3,7 +3,7 @@ import MovieCard from './MovieCard';
 import SearchIcon from "./search.svg";
 import "./App.css";
 
-const API_URL = 'http://www.omdbapi.com?apikey=7e3576af';
+const API_URL = 'https://www.omdbapi.com?apikey=7e3576af';
 
 // const movie1 = {
 //   "Title": "The Making of 'Working Title'",
@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <div className='app'>
-      <h1>Movie Land</h1>
+      <h1>Movie Flix</h1>
 
       <div className='search'>
         <input 
@@ -55,7 +55,8 @@ const App = () => {
             <div>
               <h2>No Movies Found</h2>
             </div>
-          )}
+          )
+      }
 
     </div>
   )
